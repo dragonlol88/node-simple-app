@@ -6,3 +6,6 @@ certbot-help.txt
 
 # node
 node_modules
+
+#sqlite
+*.sqlite

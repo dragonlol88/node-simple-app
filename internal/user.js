@@ -14,9 +14,9 @@ const internalUser = {
 	 * @param   {Object}  data
 	 * @returns {Promise}
 	 */
-    getById: (id) => {
-        return User.query().findById(id)
-    }
+    	getById: (id) => {
+        	return User.query().findById(id)
+    	}
 }
 
 module.exports = internalUser;
